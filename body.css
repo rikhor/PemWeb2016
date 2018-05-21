@@ -1,0 +1,56 @@
+#container {
+	margin:0 auto;
+	width:1200px;
+}
+
+#body {
+	clear:both;
+	display:flex;
+}
+
+#body #sidebar{
+	float:left;
+	width:25%;
+	background-color:#C0C0C0;
+}
+#body #sidebar ul{
+	list-style-type:none;
+	font-size:18px;
+}
+#body #sidebar ul li{
+	margin-bottom:10px;
+}
+#body #sidebar ul li a{
+	margin-bottom:10px;
+}
+#body #sidebar ul li a:hover{
+	color:ff00ff;
+}
+
+#body #konten{
+	float:left;
+	width:75%;
+	background-color:#00FF00;
+}
+#body #konten .artikel{
+	padding:10px;
+}
+#body #konten .artikel h3{
+	color:magenta;
+}
+#body #konten .artikel h3 p img{
+	width:100px;
+	height:auto;
+	float:left;
+	margin-right:5px;
+}
+
+#footer{
+	clear:both;
+	background-color: #ff9900;
+	text-align:center;
+}
+#footer p{
+	padding:10px;
+	color: #fff;
+}

@@ -8,6 +8,7 @@
 	<div id="container">
 	<div id="header"><br>
 		<img width="400"align="left" height="60" alt="" src="images/logo.png">
+		<a href="masuk_akun.php"><img width="50" align="right" height="50" alt="" src="images/1.png"></a></li><tr><br>
 	</div>
 	<link rel="stylesheet" href="navbar.css">
 		<ul class="navbar">
@@ -23,8 +24,6 @@
 				<li><a href="lampungselatan.php">Lampung Selatan</a></li>
 			</ul>
 			</li>
-			<li class="right"><a href="mendaftar.php">Sign Up</a></li>
-			<li class="right active"><a href="login.php">Sign In</a></li>
 		</ul>
 	</div><br>
 	
