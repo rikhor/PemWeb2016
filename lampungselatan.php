@@ -1,38 +1,46 @@
 <html>
-    <head>
+	<head>
 		<title>Wisata Lampung</title>
 		<link rel="stylesheet" href="style.css">
-    </head>
-	<body>
-	<nav>
-		<ul>
-			<li><a href="#"><img width="200" height="20" alt="" src="images/logo.png"></a></li><tr>
-			<li><a href="index.html">Beranda</a></li>
-			<li><a href="#">Lokasi</a>
-			<ul>
-				<li><a href="lokasi.html">Bandar Lampung</a></li>
-				<ul>
-				<li><a href="#">Museum Lampung</a></li>
-				</ul>
-				<li><a href="pesawaran.html">Pesawaran</a></li>
-				<li><a href="pringsewu.html">Pringsewu</a></li>
-				<li><a href="lampungselatan.html">Lampung Selatan</a></li>
+	</head>
+	
+<body>
+	<div id="container">
+	<div id="header"><br>
+		<img width="400"align="left" height="60" alt="" src="images/logo.png">
+		<a href="masuk_akun.php"><img width="50" align="right" height="50" alt="" src="images/1.png"></a></li><tr><br>
+	</div>
+	<link rel="stylesheet" href="navbar.css">
+		<ul class="navbar">
+			<li class="active"><a href="index2.php">Home</a></li>
+			<li><a href="#">About Us</a></li>
+			<li><a href="#">Help</a></li>
+			<li class="dropdown">
+			<a href="#" class="btndown">Destination</a>
+			<ul class="itemdown">
+				<li><a href="bandarlampung.php">Bandar Lampung</a></li>
+				<li><a href="pesawaran.php">Pesawaran</a></li>
+				<li><a href="pringsewu.php">Pringsewu</a></li>
+				<li><a href="lampungselatan.php">Lampung Selatan</a></li>
 			</ul>
 			</li>
-			<li><a href="pendaftaran.html">Login</a></li>
-			<li><a href="alamatnya" onClick="return confirm ('Yakin?')">Logout</a></li><tr><tr>
 		</ul>
-	</nav>
-	<form>
-		<input class="search" type="search" placeholder="Search...">
-		<input class="button" type="submit" value="Search">
-	</form>
+	</div><br>
 	
-	<main> <!--Section MAIN BODY-->
-	<div class="konten">
-		<div class="padding_this">
-
-<h1>Pantai Pasir Putih </h1>
+	<div id="container">
+	<div id="body">
+	<link rel="stylesheet" href="body.css">
+		<div id="sidebar">
+			<ul>
+				<li><a href="bandarlampung.php">Bandar Lampung</a></li>
+				<li><a href="pesawaran.php">Pesawaran</a></li>
+				<li><a href="pringsewu.php">Pringsewu</a></li>
+				<li><a href="lampungselatan.php">Lampung Selatan</a></li>
+			</ul>
+		</div>
+		<div id="konten">
+			<div id="artikel">
+			<h1>Pantai Pasir Putih </h1>
 			<p><img width="200" height="200" src="images/pasirputih.jpg" style="float:left; margin:8px"><br><br>
 				Seperti pada daerah wisata pada umumnya, Lampung Selatan juga menyediakan destinasi wisata pantai. 
 				Pantai satu ini menjadi pilihan utama untuk rekreasi keluarga, sebab letaknya tidak begitu jauh dari kota Bandar Lampung. 
@@ -41,8 +49,8 @@
 				Anak – anak sangat sengan sekali jika berkunjung ke pantai ini dan menikmati indahnya pasir putih dan deburan ombak kecil yang sangat menawan. 
 				Nah, di waktu liburan nantinya manjakan waktu kamu untuk berkunjung ke Pantai Pasir Putih ini.
 
-			</p><br><br><br><br><br><br><br><br>
-<h1>Teluk Kiluan</h1>
+			</p><br><br><br><br><br>
+			<h1>Teluk Kiluan</h1>
 			<p><img width="200" height="200" src="images/telukkiluan.jpg" style="float:left; margin:8px"><br><br>
 
 				Wisata berikutnya sudah sangat terkenal dikalangan masyarakat di kawasan Lampung sendiri. 
@@ -55,19 +63,7 @@
 				Dijamin seru deh menikmati keindahan alam disana.<br><br><br><br><br><br><br><br><br><br>
 			</p>
 
-<h1>Taman Nasional Way Kambas</h1>
-			<p><img width="200" height="200" src="images/WayKambas.jpg" style="float:left; margin:8px"><br><br>
-				Temat wisata ini tentunya sudah tak asing lagi ditelinga para wisatawan. 
-				Namanya adalah Taman Nasional Way Kambas. Disini adalah bagian dari wisata Lampung Selatan dengan dijadikan wisata edukasi. 
-				Sangat cocok sekali untuk berlibur bersama keluarga, karena disana bisa melihat langsung hewan terbesar yang memiliki belalai ini dan hidup di area yang sangat luas. 
-				Berbagai macam hewan langka juga dipelihara disini seperti Harimau sumatera dan badak sumatera. 
-				berbagai atraksi gajah bisa anda nikamti seperti sepak bola gajah, menaiki gajah, dan lain-lain. 
-				untuk bisa sampai ke lokasi bisa di tempuh sekitar 2 Jam dari kota bandar lampung. 
-				Jangan sampai lewatkan ya jika nantinya kamu berkunjung ke Lampung, dan menikmati wisata Lampung Selatan.<br><br><br><br><br><br><br><br><br><br>
-
-			</p>
-
-<h1>Danau Ranau</h1>
+			<h1>Danau Ranau</h1>
 			<p><img width="200" height="200" src="images/danauranau.jpg" style="float:left; margin:8px"><br><br>
 
 				Bukan hanya memiliki wisata pantai saja, Lampung juga mempunyai wisata lain yang begitu mempesona. 
@@ -76,10 +72,10 @@
 				Lokasinya sendiri memang terbilang cukup jauh di perbatasan Sumetera selatan dengan lampung. 
 				Perlu watu lebih untuk menuju wisata satu ini, mskipun demikian kekelahan kamu kan terbayar jika sudah sampai pada lokasi wisata Danau Ranau tersebut. 
 				Disana kamu bisa menikmati keindahaan Danau yang sangat indah, namun anda juga bisa menginap serta memandangi Indahnya Danau Ranau ini dari Puncak Gunung Seminung. 
-				Pastinya sangat keren dan seru deh.<br><br><br><br><br><br><br><br><br><br>
+				Pastinya sangat keren dan seru deh.<br><br><br><br><br><br><br>
 			</p>
 
-<h1>Menara Siger</h1>
+			<h1>Menara Siger</h1>
 			<p><img width="200" height="200" src="images/MenaraSigerr.jpeg" style="float:left; margin:8px"><br><br>
 
 				Wisata satu ini juga menjadi andalan, destinasi wisata Lampung Selatan. 
@@ -87,10 +83,10 @@
 				Tahukah bahwa bangunan tersebut merupakan sebuah menara siger yang juga menjadi salah satu ikon Provinsi Lampung. 
 				Menara Siger ini sangat terlihat cantik berdiri di atas bukit yang juga merupakan Titik Nol dari sebuah jalan di lampung yakni Lintas Sumatera. 
 				Bagi kamu yang ingin berkunjung ke lokasi ini bisa kok, dengan membayar tiket masuknya yang harganya sangat terjangkau. 
-				Serunya keindahan ditempat ini membuat banyak wisatawan luar Lampung untuk mampir bersinggah disana.<br><br><br><br><br><br><br><br><br><br>
+				Serunya keindahan ditempat ini membuat banyak wisatawan luar Lampung untuk mampir bersinggah disana.<br><br><br><br><br><br><br>
 			</p>
 
-<h1>Air Terjun Putri Malu</h1>
+			<h1>Air Terjun Putri Malu</h1>
 			<p><img width="200" height="200" src="images/putrimalu.jpg" style="float:left; margin:8px"><br><br>
 
 				Meskipun namanya Air Terjun Putri Malu, namun orang – orang disana juga gak malu – maluin kok. 
@@ -98,27 +94,15 @@
 				Putri Malu adalah bentuk air terjun yang berkelong seperti malu-malu, untuk ketinggian air terjunnya sekitar 80 meter dan suasana sekelilingnya di penuhi pohon dengan di dominasi warna hijau, terbayang kan, gimana sejuknya lokasi Wisata satu ini? Anda juga bisa menjadikan tempat ini untuk kegiatan seru lainnya seperti panjat tebing, berkemah, dan trekking. 
 				Bagi kamu yang pernah berkunjung kesana, pasti perah melihat tumbuhan Strawbery liar yang jika dimakan rasanya kecut dan segar. Tertarik untuk mengunjunginya, yuk segera atur jadwal liburan kamu ke Air Terjun Putri Malu.
 			</p>
-
-</div>
-	</div>
-	<div class="sidebar">
-		<div class="padding_this">
-			<h4>
-				Kategori
-			</h4>
-			<ul>
-				<li><td><a href="lokasi.html">Bandar Lampung</a></td></li>
-				<li><a href="#">Pesawaran</a></li>
-				<li><a href="#">Lampung Selatan</a></li>
-			</ul>
+			</div>
 		</div>
 	</div>
-	</main>
-	<footer>
-		<div class="footer">
-			<small>&copy; Copyright - PemWeb.Com 2018 | Alright reserved.</small>
-		</div>
-	</footer>
-	</body>
 	
+	<div id="footer">
+		<p>&copy; Copyright - PemWeb.Com 2018 | Alright reserved.</p>
+	</div>
+	</div>
+	
+</body>
 </html>
+	
